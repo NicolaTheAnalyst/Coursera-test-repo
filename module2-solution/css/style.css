@@ -1,0 +1,94 @@
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+
+  .title0, .title1, .title2 {
+    float:right;
+    overflow: hidden;
+    width: 70px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  
+  .title0 { /* chicken */ 
+   background-color:darksalmon;
+  }
+
+  .title1 {  /* beef */ 
+    background-color:crimson;
+    width: 85px; /* beef is slightly longer as per mockup */ 
+      
+
+  }
+
+  .title2 { /* sushi */ 
+    background-color:darkgoldenrod;
+  }
+
+  p {
+    width: 90%;
+    height: 150px;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    color: black;
+  }
+
+  .row {
+    width:100%;
+  }
+
+
+/********** desktop style **********/
+@media (min-width: 992px) {
+
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+    width: 31%;
+    float: left;
+    background-color: grey;
+    margin: 20px 1.15%;
+    justify-content: center;
+    border-width: 2px;
+    border-style: double;
+    }
+
+    }
+/********** tablet style **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3 {
+      float: left;
+      background-color: grey;
+      margin: 20px 1.5%;
+      justify-content: center;
+      border-width: 2px;
+      border-style: double;
+    }
+
+    .col-md-1, .col-md-2 {
+      width: 47%;
+    }
+
+    .col-md-3 {
+      width: 97%;
+    }
+}
+
+/********** mobile styles **********/
+@media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3{
+      float: left;
+      background-color: grey;
+      margin: 20px 1.5%;
+      justify-content: center;
+      border-width: 2px;
+      border-style: double;
+      overflow: auto;
+    }
+}
