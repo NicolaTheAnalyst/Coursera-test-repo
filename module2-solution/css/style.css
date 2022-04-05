@@ -5,7 +5,13 @@
     font-family: Helvetica;
   }
 
+  .h1 {
+    text-align: center;
+    font-size: 1.75em;
+  }
+
   .title0, .title1, .title2 {
+    text-align: center;
     float:right;
     overflow: hidden;
     width: 70px;
@@ -54,8 +60,9 @@
     background-color: grey;
     margin: 20px 1.15%;
     justify-content: center;
-    border-width: 2px;
+    border-width: 1px;
     border-style: double;
+    border-color: black;
     }
 
     }
@@ -67,8 +74,9 @@
       background-color: grey;
       margin: 20px 1.5%;
       justify-content: center;
-      border-width: 2px;
+      border-width: 1px;
       border-style: double;
+      border-color: black;
     }
 
     .col-md-1, .col-md-2 {
@@ -76,6 +84,7 @@
     }
 
     .col-md-3 {
+      clear: left;
       width: 97%;
     }
 }
@@ -87,8 +96,9 @@
       background-color: grey;
       margin: 20px 1.5%;
       justify-content: center;
-      border-width: 2px;
+      border-width: 1px;
       border-style: double;
+      border-color: black;
       overflow: auto;
     }
 }
