@@ -1,0 +1,25 @@
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+
+.row {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+
+#hiddenPar {
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+.button-container {
+    margin-top: 10%;
+   /********** border-radius:  0; **********/
+}
+
+
+/********** https://bulma.io/documentation/components/message/ **********/
