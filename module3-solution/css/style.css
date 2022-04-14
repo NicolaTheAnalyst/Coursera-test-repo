@@ -38,6 +38,9 @@ body {
 }
 
 .nav-item {
-    text-align: center;
+    text-align: center; /* centrare il dropdown dell'hamburger */
+}
 
+.nav-link {
+    color: black;
 }
