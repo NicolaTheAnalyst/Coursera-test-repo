@@ -43,3 +43,8 @@ body {
 .nav-link {
     color: black;
 }
+
+#mainRow {
+    background-color: aliceblue;
+    border-radius: 25px; /* rounded corners */
+}
