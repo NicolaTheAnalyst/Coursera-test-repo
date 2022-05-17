@@ -6,6 +6,8 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/bootstrap.bundle.min.js"></script>
@@ -14,24 +16,23 @@
     <body>
         <header>
             <nav class="navbar navbar-light navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container">
                 <a href="" class="navbar-brand fw-bold">✨Lil porridge magical recepies✨</a>
-                <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bus-target="navbar-toggler">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-
-                </button>
-    <div class = "collapse navbar-collapse" id="navbar-toggler">
+                  </button>              
+    <div class = "collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a href="" class="nav-link">Ricette</a></li>
+            <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" id="ricetteDropdown"role="button" data-toggle="dropdown" >Ricette</a></li>
+            <div class="dropdown-menu" aria-labelledby="ricetteDropdown">
+                <a class="dropdown-item" href="#">Porridge di porro</a></div>
             <li class="nav-item"><a href="" class="nav-link">Chi sono</a></li>
             <li class="nav-item"><a href="" class="nav-link">Contatti</a></li>
-
         </ul>
 
     </div>
             </div>
             </nav>
-    
     
         </header>
         <script src="" async defer></script>
